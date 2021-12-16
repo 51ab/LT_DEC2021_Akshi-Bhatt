@@ -781,7 +781,10 @@ section.contact .card-wrapper{
     column-gap: 1rem;
 }
 section.contact .card-wrapper .card img{
-    position: relative;
+    position:relative;
+    text-align: center;
+    left: 35px;
+   
 }
 section.project{
     clip-path: polygon(0 0, 100% 0, 100% 100%,70% 96%,0 100% );
