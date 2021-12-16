@@ -549,6 +549,9 @@ footer .copy{
     outline: none;
     cursor: pointer;
 }
+.times img{
+    right: -10px;
+}
 .mobile-nav ul{
     list-style-type: none;
     text-decoration: none;
@@ -684,6 +687,9 @@ section.project .card-wrapper{
 }
 }
 @media (max-width:576px){
+    header{
+      padding-left: 2.6%;
+    }
 .mid{
     flex-direction: column;
 }
@@ -721,8 +727,8 @@ div.mobile-nav.open{
     margin-left: -7rem;
 }
 .times img{
-    margin-right: 7rem;
-    margin-top: 0rem;
+    margin-right: -1rem;
+    margin-top: -0.7rem;
 }
 button.hamberger{
     margin-top: 1rem;
@@ -737,6 +743,14 @@ section.skills .card-wrapper{
     column-gap:2rem ;
     row-gap: 5rem;
     margin-bottom: 4rem;
+}
+section.skills .card-wrapper .card h1{
+    margin-top: -1%;
+    line-height: normal;
+}
+section.skills .card-wrapper .mid h1{
+    margin-top: -1%;
+    line-height: normal;
 }
 section.job {
     max-width:max-content;
@@ -762,8 +776,12 @@ section.project .card-wrapper{
     margin-bottom: 5rem;
     
 }
+
 section.contact .card-wrapper{
     column-gap: 1rem;
+}
+section.contact .card-wrapper .card img{
+    position: relative;
 }
 section.project{
     clip-path: polygon(0 0, 100% 0, 100% 100%,70% 96%,0 100% );
@@ -786,5 +804,11 @@ section.contact .card-wrapper{
     font-size: 1rem;
  padding:  1rem 3rem;
     column-gap: 3.8rem;
+}
+footer .linksocial .links a{
+    margin-left: -3.9rem;
+}
+footer .linksocial .foot-social a{
+    margin-right: -0.9rem;
 }
 }
